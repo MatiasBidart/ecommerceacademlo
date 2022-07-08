@@ -37,7 +37,7 @@ const navigate = useNavigate()
 
   return (
     <div className='form-dv'>
-      <img className='user-img' src='assets\img\waitingtologin.jpg' alt='Please, Log In...' />
+      <img className='user-img' src='https://repcel.com.mx/img/user.jpg' alt='Please, Log In...' />
       <form className='form-entry' onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor='email'>Email</label>
         <input type='email' {...register('email')}/>

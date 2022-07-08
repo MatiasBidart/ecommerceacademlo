@@ -27,7 +27,7 @@ const SignUp = () => {
     
   return (
     <div className='form-dv'>
-        <img className='sign-user-img' src='assets\img\waitingtologin.jpg' alt='Please, Sign Up...' />
+        <img className='sign-user-img' src='https://repcel.com.mx/img/user.jpg' alt='Please, Sign Up...' />
         <form className='form-entry' onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor='firstName'>First Name</label>
         <input type='text' {...register('firstName')}/>

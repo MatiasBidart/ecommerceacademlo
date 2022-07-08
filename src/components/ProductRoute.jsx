@@ -19,7 +19,7 @@ const ProductRoute = () => {
    
   return (
     <div className='render-dv'>
-    { product ? <ProductRender producter={product}/> : <img className="loader" src='\assets\img\loader.gif' alt=''/>}
+    { product ? <ProductRender producter={product}/> : <img className="loader" src='https://c.tenor.com/hQ88OSFbTN8AAAAC/loading.gif' alt=''/>}
     </div>
   )
 }
